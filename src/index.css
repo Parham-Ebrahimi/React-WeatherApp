@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'outfit', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+
+}
+p{
+  font-size: 1.3rem;
+  font-weight: bold;
+  
+}
+h1{
+  font-size: 4rem;
+}
+.container{
+  width: 90%;
+  max-width: 37.5rem;
+  background: linear-gradient(135deg, #cc9bff, #5d10e9 );
+  color: #fff;
+  margin: 6.25rem auto 2rem;
+  align-items:center;
+  padding:2.5rem 2.188rem;
+  border-radius: 1.25rem;
+  
+}
+
+.search{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.search input{
+  border:0;
+  outline: 0;
+  background: white;
+  color: #555;
+  padding: 0.625rem 1.563rem;
+  height: 3.75rem;
+  border-radius: 1.875rem;
+  flex: 1;
+  margin-right: 1rem;
+  font-size:1.125rem;
+}
+.search button{
+  border: 0;
+  outline: 0;
+  background: white;
+  border-radius: 50%;
+  width: 3.75rem;
+  height: 3.75rem;
+  cursor: pointer;
+}
+.weather{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items:center;
+  margin: 1rem;
+}
+.location{
+  text-align:center;
+}
+.weather-icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.windspeed{
+  display: flex;
+  align-items:center;
+  padding: 1rem;
+}
+.temp{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.description{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.feels{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.windspeed img{
+  max-width: 5rem;
+  max-height:5rem;
+  float:left;
+  margin-right: 1rem;
+}
+.temp img{
+  max-width: 5rem;
+  max-height: 5rem;
+  margin-right: 1rem;
+}
+.description img{
+  max-width: 5rem;
+  max-height:5rem;
+  float:left;
+  margin-right: 1rem;
+}
+.feels img{
+  max-width: 5rem;
+  max-height:5rem;
+  float:left;
+  margin-right: 1rem;
+}
+
